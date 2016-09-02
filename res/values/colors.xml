@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="login">#66ffcc</color>
+    <color name="home">#ffccff</color>
+    <color name="title_bar">#3333ff</color>
+    <color name="user_name">#00BCF9</color>
+    <color name="green">#00ff33</color>
+</resources>

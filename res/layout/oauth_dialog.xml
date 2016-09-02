@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="15dip">
+
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+		<ImageView 
+       		android:layout_width="32dip"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/weixiao"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:text="授权提示"
+            android:layout_marginTop="12dip"
+            android:layout_marginLeft="10dip"
+            android:textSize="18dip"
+            android:textColor="@color/red"/>
+        
+    </LinearLayout>
+    
+    <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:text="第一次使用需要输入您的新浪微博账号和密码进行登录授权"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="5dip"
+            android:textSize="16dip"
+            android:textColor="@color/black"/>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <Button 
+            android:id="@+id/oauth_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/white"
+            android:text="授权"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    
+
+</LinearLayout>
